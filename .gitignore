@@ -1,0 +1,30 @@
+# Python
+backend/venv/
+backend/tmp/
+backend/__pycache__/
+backend/app/__pycache__/
+backend/app/**/__pycache__/
+*.pyc
+*.pyo
+.env
+
+# Node
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+
+# Env files (never commit real secrets)
+.env
+.env.local
+.env.*.local
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Test temp files
+backend/tests/tmp/
+backend/.coverage
+
+# Claude Code
+.claude/
