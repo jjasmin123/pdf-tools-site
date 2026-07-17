@@ -44,7 +44,7 @@ export async function POST(req: NextRequest) {
     );
   }
 
-  let messages: { role: string; content: string }[];
+  let messages: { role: "user" | "assistant"; content: string }[];
   try {
     ({ messages } = await req.json());
     if (!Array.isArray(messages)) throw new Error();
