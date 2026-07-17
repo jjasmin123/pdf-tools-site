@@ -14,6 +14,9 @@ export const metadata: Metadata = {
   },
   description:
     "Free online tools to merge, split, compress, and convert PDFs, images, Word, and Excel files. No signup. Files deleted after conversion.",
+  verification: {
+    google: "BvBJR6hHcM3XDvLbvJTeulzZWmyk42RjNr4bx2IjWZo",
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
