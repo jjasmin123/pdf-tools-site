@@ -15,7 +15,7 @@ export const metadata: Metadata = {
   description:
     "Free online tools to merge, split, compress, and convert PDFs, images, Word, and Excel files. No signup. Files deleted after conversion.",
   verification: {
-    google: "BvBJR6hHcM3XDvLbvJTeulzZWmyk42RjNr4bx2IjWZo",
+    google: "7s4ym43V699W_2rKBFDZPaz_ihHuO_3IR9T1_eHNMcs",
   },
 };
 
