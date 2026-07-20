@@ -4,6 +4,7 @@ import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import ChatWidget from "@/components/ChatWidget";
+import { GoogleAnalytics } from "@next/third-parties/google";
 
 const geist = Geist({ subsets: ["latin"], variable: "--font-geist" });
 
@@ -27,6 +28,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <main className="flex-1">{children}</main>
         <Footer />
         <ChatWidget />
+        <GoogleAnalytics gaId="G-FE4BS4SPYK" />
       </body>
     </html>
   );
