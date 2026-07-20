@@ -6,6 +6,6 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: "*",
       allow: "/",
     },
-    sitemap: "https://pdf-tools-site-x8io.vercel.app/sitemap.xml",
+    sitemap: "https://www.getpdftap.com/sitemap.xml",
   };
 }

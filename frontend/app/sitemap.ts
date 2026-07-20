@@ -1,7 +1,7 @@
 import { MetadataRoute } from "next";
 import { TOOLS } from "@/lib/tools";
 
-const BASE_URL = "https://pdf-tools-site-x8io.vercel.app";
+const BASE_URL = "https://www.getpdftap.com";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const toolPages = TOOLS.map((tool) => ({
